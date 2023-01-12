@@ -20,7 +20,7 @@ img {
 
 body {
     font-family: Arial, sans-serif;
-    padding: 20px;  
+    padding: 30px;  
     background-color: #E4E4E4;
 }
 
@@ -124,6 +124,7 @@ a:hover {
 @media screen and (max-width: 900px) {
 	.images { 
 		grid-template-columns: repeat(1 ,1fr);
+        grid-gap: 20px;
 	}
     .img4, .img3, .img2 {
         grid-column: 1 / span 1; 
@@ -133,6 +134,9 @@ a:hover {
 @media screen and (max-width:900px) {
     .text {
         grid-template-columns: repeat(1,1fr);
+    }
+    body {
+        padding: 15px;
     }
 }
 
