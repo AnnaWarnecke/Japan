@@ -81,7 +81,7 @@ p:last-child {
 .images {
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    grid-gap: 1em;
+    grid-gap: 30px;
     padding-top: 5em;
 }
 
